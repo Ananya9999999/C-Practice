@@ -19,6 +19,16 @@ void pop(int arr[], int n){
     }
 }
 
+void display(int arr[], int n){
+    if (top==-1) printf("Stack empty\n");
+    else {
+        printf("Stack elements:\n");
+        for (int i=top; i>0; i--){
+            printf("%d ", arr[i]);
+        }
+    }
+}
+
 int main(){
     int n;
     printf("Enter the size of stack: ");
