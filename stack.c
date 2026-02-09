@@ -29,6 +29,13 @@ void display(int arr[], int n){
     }
 }
 
+void peek(int arr[], int n){
+    if (top==-1) printf("Stack empty\n");
+    else {
+        printf("Top element: %d\n", arr[top]);
+    }
+}
+
 int main(){
     int n;
     printf("Enter the size of stack: ");
